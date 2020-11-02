@@ -1,0 +1,291 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,a,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+  }
+
+   ::-webkit-selection { background-color: #FFD25E; }
+      ::-moz-selection { background-color: #FFD25E; }
+       ::-ms-selection { background-color: #FFD25E; }
+        ::-o-selection { background-color: #FFD25E; }
+           ::selection { background-color: #FFD25E; }
+
+body {
+    max-height: 100%;
+    position: relative;
+    z-index: 0;
+    background: #FFFFFF;
+  }
+
+  #container {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+/*//////////////////////////////////////////////////////
+  TYPE SETTING
+//////////////////////////////////////////////////////*/
+h1 {
+    color: #000000;
+    font-family: "Optima-Regular";
+    font-weight: normal;
+    display: inline;
+  }
+
+  h2, p, li a {
+    font-family: "UntitledSans-Regular";
+    font-weight: normal;
+  }
+
+  h2 { text-transform: uppercase; }
+
+  a {
+    color: black;
+    font-family: "UntitledSans-Medium";
+    text-decoration: underline;
+  }
+
+  h5 {
+    font-family: "UntitledSans-Regular";
+    font-size: 1em;
+    margin-bottom: .6em;
+    margin-top: 1.2em;
+  }
+
+  p a:hover {
+    background-color: #fcd200;
+    text-decoration: none;
+  }
+
+/*//////////////////////////////////////////////////////
+  TOP NAV
+//////////////////////////////////////////////////////*/
+#myName div, .project-name svg circle {
+  display: inline;
+  position: relative;
+  vertical-align: middle;
+}
+
+#topNav {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+#topNav #myName, #topNav .menu-wrapper {
+  display: inline-block;
+}
+
+#topNav .menu-wrapper {
+  position: relative;
+  top: 50%;
+}
+
+#topNav a { text-decoration: none; }
+
+#topNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#topNav li a {  
+  color: black;
+  text-align: right;
+  text-decoration: underline;
+  transition: color 0.3s ease;    
+}
+
+#topNav li a:hover,
+#topNav .menu-btn:hover {
+  background-color: #fcd200;
+  text-decoration: none;
+}
+
+
+
+/*//////////////////////////////////////////////////////
+  LANDING PAGE
+//////////////////////////////////////////////////////*/
+  #introCopy {
+    position: relative;
+  }
+
+  #introCopy h1, #introCopy p { display: inline; }
+  .down-arrow { text-align: center; }
+
+  #introCopy p {
+    font-family: "UntitledSans-Light";
+    font-weight: normal;
+  }
+
+.project-wrapper a { text-decoration: none; cursor: crosshair;; }
+.project-thumbnail { display: none; position: absolute; max-width: 40%; }
+.project-thumbnail img { max-width: 100%; }
+
+.project-wrapper:hover > .project-thumbnail, .project-wrapper a:hover + .project-thumbnail {
+  display: block;
+  position: absolute;
+  z-index: 99;
+}
+
+.project-wrapper {
+  cursor: crosshair;
+}
+
+/*//////////////////////////////////////////////////////
+  ABOUT PAGE
+//////////////////////////////////////////////////////*/
+#aboutCopy p {
+  font-family: "UntitledSans-Regular";
+  font-weight: normal;
+  line-height: 2em;
+  letter-spacing: .3px;
+}
+
+#aboutCopy a:hover{
+  background-color: #fcd200;
+  text-decoration: none;
+}
+
+
+/*//////////////////////////////////////////////////////
+  PROJECT PAGE
+//////////////////////////////////////////////////////*/
+h3, h4 {
+  font-family: "UntitledSans-Medium";
+  font-weight: normal;
+}
+
+.row p, .paragraph p {
+  font-family: "UntitledSans-Light";
+  font-weight: normal;
+}
+
+.row .col-1 {
+  font-family: "UntitledSans-Regular";
+}
+
+/*//////////////////////////////////////////////////////
+  FOOTER
+//////////////////////////////////////////////////////*/
+.footer_border {
+  padding: 5em 21em 5em 21em;
+  background-color: #f9f9f9;
+}
+
+.footer_title {
+  font-family: "Optima-Regular";
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-row: auto;
+  grid-column-gap: 5em;
+  grid-row-gap: 1em;
+  padding-top: 1em;
+}
+
+.footer_top {
+  border-top: 1px solid black;
+  padding-top: 1em;
+}
+
+.footer_top a {
+  font-family: "UntitledSans-Regular";
+  color: black;
+  font-size: 1.1em;
+  color: black;
+  cursor: pointer;
+  padding: 5px 5px 5px 0px;
+}
+
+.footer_top a:hover {
+  text-decoration: none;
+  background-color: #fcd200;
+  color: black;
+}
+
+.footer_bt a {
+  font-family: "UntitledSans-Regular";
+  color: black;
+  font-size: 1.1em;
+  color: black;
+  cursor: pointer;
+  padding: 5px 5px 5px 0px;
+}
+
+.footer_bt a:hover {
+  text-decoration: none;
+  background-color: #fcd200;
+  color: black;
+}
+
+.dark_border {
+  padding: 3em 6em 3em 6em;
+  background-color: #f7f7f7;
+}
+
+/*//////////////////////////////////////////////////////
+  IMAGE CAROUSEL
+//////////////////////////////////////////////////////*/
+.mySlides { display: none; }
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  font-family: "Atlas Grotesk", sans-serif;
+  color: #1e1b1b;
+  font-size: 1vw;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  padding-top: 3.5em;
+  padding-left: 1em;
+  color: #1e1b1b;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}

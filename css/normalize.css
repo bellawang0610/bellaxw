@@ -1,0 +1,294 @@
+@media all and (min-width: 320px) {
+	.grid-1 {
+		grid-template-columns: 7fr 5fr;
+		grid-gap: 1em;
+	}
+
+	.grid-2, .grid-3 {
+		grid-template-columns: 1fr;
+		grid-gap: 1em;
+	}
+
+	#container { padding: 1.25em; }
+
+	.project-wrapper2 h5 {
+		position: relative;
+		font-family: "UntitledSans-Regular";
+		font-weight: normal;
+		margin-bottom: 1em;
+		margin-top: 3em;
+	}
+
+	.project-wrapper2 h1 {
+		position: relative;
+	}
+
+	.project-wrapper2 p {
+		position: relative;
+		margin-top: 1em;
+		font-family: "UntitledSans-Light";
+		margin-bottom: 2.5em;
+	}
+
+
+	/*//////////////////////////////////////////////////////
+	TYPESETTING
+	//////////////////////////////////////////////////////*/
+	
+	#myName h1, #selectProjects h2  {
+		font-size: 16px;
+	}
+
+	#introCopy h1, #introCopy p, #helloCopy h1 {
+		font-size: 35px;
+		line-height: 1.5em;
+	}
+
+	.project-wrapper h1 {
+		font-size: 1.4em;
+	}
+
+	.project-wrapper p {
+		font-size: 14px;
+		color: #696666;
+		padding-top: 1em;
+		padding-left: 2.5em;
+	}
+
+	/*//////////////////////////////////////////////////////
+	  LANDING PAGE
+	//////////////////////////////////////////////////////*/
+	#myName .sun { margin-right: .5em; }
+	
+	.menu li { 
+		display: block; 
+		margin-top: 1em;
+	}
+
+	#topNav li a { display: block; }
+
+	#introCopy {
+		margin-top: 6em;
+		margin-bottom: 4em;
+	}
+
+	#helloCopy { margin-top: 6em; }
+	#aboutCopy { margin-bottom: 6em; }
+
+	.big-sun, .small-sun { display: none; }
+	.down-arrow { margin-bottom: 5em; }
+
+	#selectProjects { margin-bottom: 5em; }
+	#selectProjects hr {
+		border-top: solid .5px #808080;
+	}
+
+	.project-wrapper { padding-top: 1.5em; padding-bottom: 1.5em; }
+	.project-name h1 { margin-right: .25em; }
+	.project-name svg { padding-bottom: .1em; }
+
+	.contact-link svg { margin-right: 1em; }
+
+	
+	/*//////////////////////////////////////////////////////
+	  PROJECT PAGE
+	//////////////////////////////////////////////////////*/
+	.grid-4, .grid-5 { grid-template-columns: 1fr; }
+	#project-container { margin-top: 3em; }
+	#intro { margin-bottom: 4em; }
+
+	.grid-6 {
+		grid-template-columns: 1fr;
+		grid-gap: 1.3em;
+		margin-top: 2em;
+	}
+
+	h3 {
+		font-size: 2.5em;
+		line-height: 1.2em;
+		letter-spacing: -2.5px;
+	}
+
+	img, video { width: 100%; }
+
+	.project-image {
+		max-width: 100%;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	.paragraph .boldtext {
+		font-family: "UntitledSans-Regular";
+	}
+
+	.row {
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+	}
+
+	.row p {
+		font-size: .9em;
+		/* letter-spacing: .1px; */
+		line-height: 1.75em;
+	}
+
+	.col-1 {
+		margin-bottom: .3em;
+	}
+
+	.paragraph { margin-top: 1em; }
+	.p-wrapper h4 {
+		margin-top: 2em;
+		margin-bottom: .5em;
+		font-size: 1.3em;
+	}
+	.p-wrapper p {
+		font-size: .9em;
+		/* letter-spacing: .1px; */
+		line-height: 1.75em;
+	}
+}
+
+@media all and (min-width: 375px) {
+	#introCopy {
+		margin-top: 9em;
+		margin-bottom: 6em;
+	}
+
+	#helloCopy {
+		margin-top: 5em;
+		margin-bottom: 2em;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.grid-4 { grid-template-columns: 1fr 10fr 1fr; }
+	.grid-5 { grid-template-columns: 3fr 9fr; }
+	.grid-6 {grid-template-columns: 4fr 4fr 4fr;}
+	#container { padding: 2em; }
+	
+	
+	.menu, .menu li, #topNav li a { 
+		display: inline; 		
+	}
+
+	.menu {
+		position: relative;
+		top: 50%;
+		right: 0;
+		text-align: right;
+		transform: translateY(-25%);
+	}
+
+	.menu li { 
+		margin-left: 1.5em;
+	}
+	
+	#introCopy, #aboutCopy { margin-bottom: 9em; }
+
+	.project-wrapper h1 {
+		font-size: 1.6em;
+	}
+
+	.project-wrapper p, .project-name { display: inline; }
+
+	.project-wrapper p {
+		position: relative;
+		bottom: .2em;
+		padding-top: 0;
+		padding-left: 0.5em;
+	}
+
+	.project-wrapper2 {
+		position: relative;
+		padding-bottom: 1.5em;
+		padding-top: 1.5em;
+	}
+
+	.project-wrapper2 h5 {
+		position: relative;
+		font-family: "UntitledSans-Regular";
+    font-weight: normal;
+		margin-bottom: 0.8em;
+	}
+
+	.project-wrapper2 h1 {
+		position: relative;
+	}
+
+	.project-wrapper2 p {
+		position: relative;
+		margin-top: 0.8em;
+		font-family: "UntitledSans-Light";
+	}
+
+
+	/*//////////////////////////////////////////////////////
+	  HAMBURGER MENU
+	//////////////////////////////////////////////////////*/
+	/* #topNav li { display: inline-block; }
+	#topNav li a { font-size: 14px; margin-left: 2em; }
+	#topNav .menu-icon { display: none; }
+	#topNav .menu {
+		max-height: none;
+		position: relative;
+  	top: 25%;
+	 } */
+	 
+	 .header li {
+		float: left;
+	  }
+	  .header li a {
+		padding: 20px 30px;
+	  }
+	  .header .menu {
+		clear: none;
+		float: right;
+		max-height: none;
+	  }
+	  .header .menu-icon {
+		display: none;
+	  }
+	
+}
+
+@media all and (min-width: 1024px) {
+	.grid-2 { grid-template-columns: 6fr 6fr; }
+	.grid-3 { grid-template-columns: 5fr 7fr; }
+	.grid-4 { grid-template-columns: 2.5fr 7fr 2.5fr; }
+
+	#introCopy { margin-bottom: 24em; }
+
+	.big-sun {
+		display: block;
+		position: absolute;
+		top: 18em;
+		right: 0;
+		z-index: -100;
+	}
+
+	.small-sun {
+		display: block;
+		position: absolute;
+		top: 19em;
+		left: 60%;
+		z-index: -100;
+	}
+
+	.down-arrow { margin-top: -11em;; }
+
+
+}
+
+@media all and (min-width: 1280px) {
+	#container { padding: 3em 4em 3em 4em; }
+	#introCopy { margin-bottom: 30em; }
+	.big-sun { top: 24em;	 }
+}
+
+@media all and (min-width: 1440px) {
+	.grid-2 { grid-template-columns: 6fr 6fr; }
+}
+
+@media all and (min-width: 1680px) {
+}
