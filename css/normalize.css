@@ -152,18 +152,16 @@
 @media all and (min-width: 375px) {
 	#introCopy {
 		margin-top: 9em;
-	margin-bottom: 6em;
+		margin-bottom: 6em;
 	}
-	
+
 	#helloCopy {
 		margin-top: 5em;
 		margin-bottom: 2em;
 	}
-
 	.footer_container {
 		grid-template-columns: 1fr;
 	}
-
 	.footer_bt {
 		border-top: 1px solid black;
 		padding-top: 1.5em;
@@ -236,9 +234,9 @@
 	.grid-2 { grid-template-columns: 6fr 6fr; }
 	.grid-3 { grid-template-columns: 5fr 7fr; }
 	.grid-4 { grid-template-columns: 2.5fr 7fr 2.5fr; }
-	
+
 	#introCopy { margin-bottom: 24em; }
-	
+
 	.big-sun {
 		display: block;
 		position: absolute;
@@ -246,7 +244,7 @@
 		right: 0;
 		z-index: -100;
 	}
-	
+
 	.small-sun {
 		display: block;
 		position: absolute;
@@ -254,9 +252,9 @@
 		left: 60%;
 		z-index: -100;
 	}
-	
+
 	.down-arrow { margin-top: -11em;; }
-	
+
 	.footer_container {
 		grid-template-columns: 6fr 6fr;
 	}
@@ -264,11 +262,11 @@
 		border-top: 1px solid black;
 		padding-top: 1.5em;
 	}
-	
+
 	.footer_border {
-	  /* padding: 5em 21em 5em 21em; */
-	  padding: 5% 23% 5% 23%;
-	  background-color: #f9f9f9;
+	  /* padding: 5em 21em 5em 21em; */
+	  padding: 5% 23% 5% 23%;
+	  background-color: #f9f9f9;
 	}
 }
 
